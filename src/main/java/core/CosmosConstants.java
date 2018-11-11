@@ -1,3 +1,5 @@
+package core;
+
 import com.microsoft.azure.documentdb.*;
 
 public class CosmosConstants {
