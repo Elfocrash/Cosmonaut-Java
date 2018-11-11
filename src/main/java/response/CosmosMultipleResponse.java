@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CosmosMultipleResponse<TEntity> {
-
-
     List<CosmosResponse<TEntity>> failedEntities = new ArrayList<>();
 
     List<CosmosResponse<TEntity>> successfulEntities = new ArrayList<>();
